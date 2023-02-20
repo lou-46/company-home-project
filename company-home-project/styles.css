@@ -1,0 +1,212 @@
+html {
+    color: #1b1a05;
+    background-color: #faad91;
+}
+.header{
+    background-color: #e9e5ea;
+    height: 5rem;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 99;
+}
+img.logo{
+    height: 95%;
+    margin-left: 1.5rem;
+    margin-right: 20rem;
+}
+nav li {
+    display: inline-flex;
+    margin: 0 1rem;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+li a {
+    font-family: 'Raleway';
+    text-decoration: none;
+    cursor: pointer;
+    color: #1b1a05;
+    font-size: 1.5rem;
+}
+.instagram{
+    height: 30px;
+    width: auto;
+    margin-right: 1.5rem;
+}
+h1 {
+    font-family: 'Abril Fatface';
+    color: #a98129;
+    font-size: 3rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-shadow:#72493a80 1px 0 4px;
+}
+h2 {
+    font-family: 'Birthstone Bounce';
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #e9e5ea;
+    text-shadow:#72493a 1px 0 10px;
+}
+main {
+    margin-top: 5.25rem;
+}
+.mission {
+    border-bottom: 8px solid #e9e5ea80;
+    padding: 1.5rem 18rem;
+    margin: 2rem 6rem;
+}
+.painting img,
+.flowers img,
+.description{
+    height: 20rem;
+    width: 15rem;
+    border: 18px solid #e9e5ea;
+    border-bottom: 65px solid #e9e5ea;
+    margin: 2rem 5rem;
+    box-shadow: 12px 12px 15px #1b1a0580;
+    border-radius: 5px;
+}
+.painting {
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-family: 'Homemade Apple';
+    font-size: 4rem;
+    text-align: center;
+    text-shadow:#72493a80 1px 0 4px;
+}
+.container {
+    border: 5px solid #a98129;
+    background-color: #e9e5ea80;
+    border-radius: 12px;
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    margin: 2rem 6rem;
+}
+.intro {
+    background-color: #e9e5ea;
+    margin: 0 3rem;
+    width: 35rem;
+    height: 53rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+img.holding{
+    width: 35rem;
+    height: 53rem;
+    border-radius: 12px;
+}
+.intro p {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 0 3rem;
+}
+h4 {
+    font-family: 'Abril Fatface';
+    font-size: 3rem;
+    text-align: center;
+}
+span {
+    font-family: 'Amatic SC';
+    font-size: 3rem;
+    text-align: right;
+    padding-right: 4rem;
+}
+p {
+    font-size: 2rem;
+    font-family: 'Raleway';
+}
+.amatic {
+    font-family: 'Amatic SC';
+}
+.abril {
+    font-family: 'Abril Fatface';
+}
+.birthstone {
+    font-family: 'Birthstone Bounce';
+}
+.apple {
+    font-family: 'Homemade Apple';
+}
+.dancing {
+    font-family: 'Dancing Script';
+}
+.raleway {
+    font-family: 'Raleway';
+}
+.price {
+    font-family: 'Homemade Apple';
+    color: #e9e5ea;
+    font-size: 0.5rem;
+}
+.flowers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 8px solid #e9e5ea80;
+    margin-bottom: 7rem;
+}
+.description{
+    background-color: black;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.description h4,
+.description p{
+    color: #e9e5ea;
+    font-size: 2rem;
+    margin: 0;
+    opacity: 0.6;
+}
+.call{
+    background-image: url('images/background.jpg');
+    display: flex;
+    align-items: center;
+    color: #e9e5ea;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4rem;
+    margin: 2rem 6rem;
+    align-content: center;
+    align-items: stretch
+}
+.call p{
+    background-color: #a98129bd;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin: 0;
+}
+.test {
+    display: none;
+}
+.bottom-logo{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+.bottom-logo img {
+    background-color: #e9e5eacc;
+    width: 5%;
+    
+}
